@@ -1,0 +1,9 @@
+import os
+
+# Set up proxy environment variables if needed
+os.environ['HTTP_PROXY'] = 'http://your_proxy_url'
+os.environ['HTTPS_PROXY'] = 'http://your_proxy_url'
+
+
+os.environ['HTTP_PROXY'] = 'http://username:password@your_proxy_url'
+os.environ['HTTPS_PROXY'] = 'http://username:password@your_proxy_url'
